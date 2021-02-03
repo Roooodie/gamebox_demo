@@ -17,7 +17,7 @@
             <tr>
                 <td><?php __($v['no']); ?></td>
                 <td><?php __($v['name']); ?></td>
-                <td><?php __($v['gender'] === 0 ? '男' : '女'); ?></td>
+                <td><?php __($v['gender'] === 0 ? 'Male' : 'Female'); ?></td>
                 <td><?php __($v['phone']); ?></td>
                 <td><a href="/edit?id=<?php __($v['id']); ?>">Modify</a> / <a href="/delete?id=<?php __($v['id']); ?>"
                                                                           class="uk-text-danger">Delete</a></td>
